@@ -94,4 +94,8 @@ Class MainWindow
             Return True 'Everything Fine
         End If
     End Function
+
+    Private Sub btnClose_Click(sender As Object, e As RoutedEventArgs) Handles btnClose.Click
+        Me.Close()
+    End Sub
 End Class
