@@ -10,30 +10,38 @@
         <Grid.Background>
             <ImageBrush ImageSource="unam.png" Stretch="None"/>
         </Grid.Background>
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="17" Margin="10,10,0,0" TextWrapping="Wrap" Text="Número de cuenta" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
-        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="25" Margin="10,27,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" MaxLength="9" AcceptsTab="True"/>
-        <Button x:Name="button" Content="Buscar" HorizontalAlignment="Left" Height="25" Margin="274,27,0,0" VerticalAlignment="Top" Width="105"/>
-        <Button x:Name="btnClose" Content="Cerrar" HorizontalAlignment="Left" Height="25" Margin="294,510,0,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="1.095,1.215"/>
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="17" Margin="10,30,0,0" TextWrapping="Wrap" Text="Número de cuenta" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
+        <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="25" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" MaxLength="9" AcceptsTab="True"/>
+        <Button x:Name="button" Content="Buscar" HorizontalAlignment="Left" Height="25" Margin="274,47,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="btnClose" Content="Cerrar" HorizontalAlignment="Left" Height="25" Margin="274,507,0,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="1.095,1.215"/>
         <Label x:Name="lblCompany" Content="Universidad Nacional Autónoma de México" Margin="10,510,151,30" FontSize="8" FontWeight="Bold" Foreground="#FF666666" RenderTransformOrigin="0.539,2.556"/>
-        <TextBox x:Name="txtFirstname" HorizontalAlignment="Left" Height="24" Margin="145,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtLastname" HorizontalAlignment="Left" Height="24" Margin="145,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="24" Margin="145,139,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtField" HorizontalAlignment="Left" Height="24" Margin="145,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtGeneration" HorizontalAlignment="Left" Height="24" Margin="145,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="24" Margin="145,226,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtPostalCode" HorizontalAlignment="Left" Height="24" Margin="145,255,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="24" Margin="145,284,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtCurp" HorizontalAlignment="Left" Height="24" Margin="145,313,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <TextBox x:Name="txtHeadquarters" HorizontalAlignment="Left" Height="24" Margin="145,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
-        <Label x:Name="lblFirstame" Content="Nombre" Margin="10,81,264,462" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblLastname" Content="Apellidos" Margin="10,110,264,434" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblEmail" Content="Correo eléctronico" Margin="10,139,264,404" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblField" Content="Campo de profundizacion" Margin="10,168,264,375" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblGeneration" Content="Generación" Margin="10,197,264,346" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblPhone" Content="Telefono" Margin="10,226,264,317" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblPostalCode" Content="Codigo Postal" Margin="10,255,264,288" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblPassword" Content="Contraseña" Margin="10,284,264,259" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblCurp" Content="CURP" Margin="10,313,264,230" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
-        <Label x:Name="lblOrigin" Content="Sede" Margin="10,342,264,201" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <TextBox x:Name="txtFirstname" HorizontalAlignment="Left" Height="24" Margin="145,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtLastname" HorizontalAlignment="Left" Height="24" Margin="145,130,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtEmail" HorizontalAlignment="Left" Height="24" Margin="145,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtField" HorizontalAlignment="Left" Height="24" Margin="145,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtGeneration" HorizontalAlignment="Left" Height="24" Margin="145,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtPhone" HorizontalAlignment="Left" Height="24" Margin="145,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtPostalCode" HorizontalAlignment="Left" Height="24" Margin="145,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtPassword" HorizontalAlignment="Left" Height="24" Margin="145,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtCurp" HorizontalAlignment="Left" Height="24" Margin="145,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <TextBox x:Name="txtHeadquarters" HorizontalAlignment="Left" Height="24" Margin="145,362,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <Label x:Name="lblFirstame" Content="Nombre" Margin="10,101,264,442" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblLastname" Content="Apellidos" Margin="10,130,264,414" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblEmail" Content="Correo eléctronico" Margin="10,159,264,384" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblField" Content="Campo de profundizacion" Margin="10,188,264,355" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblGeneration" Content="Generación" Margin="10,217,264,326" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblPhone" Content="Telefono" Margin="10,246,264,297" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblPostalCode" Content="Codigo Postal" Margin="10,275,264,268" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblPassword" Content="Contraseña" Margin="10,304,264,239" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblCurp" Content="CURP" Margin="10,333,264,210" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Label x:Name="lblOrigin" Content="Sede" Margin="10,362,264,181" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Menu x:Name="menu" HorizontalAlignment="Left" Height="22" VerticalAlignment="Top" Width="418" Margin="0,0,-9,0">
+            <MenuItem Header="Archivo" Width="55">
+                <MenuItem x:Name="mnuClose" Header="Salir" HorizontalAlignment="Left" Width="151" ToolTip="Salir de la aplicación" InputGestureText="Alt+F4" Click="MenuItem_Click" Margin="0,0,-11,0"/>
+            </MenuItem>
+            <MenuItem Header="Ayuda" Click="MenuItem_Click_1">
+                <MenuItem x:Name="mnuAbout" Header="Acerca de..." HorizontalAlignment="Left" Width="140" Click="MenuItem_Click_2"/>
+            </MenuItem>
+        </Menu>
     </Grid>
 </Window>

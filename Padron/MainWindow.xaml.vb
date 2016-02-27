@@ -36,11 +36,6 @@ Class MainWindow
             ' Display the content.
             Console.WriteLine(jsontext)
 
-
-            jsontext = "{""student"":" + jsontext + "}"
-
-
-
             obj = JsonConvert.DeserializeObject(Of Container)(jsontext)
 
 
@@ -97,5 +92,17 @@ Class MainWindow
 
     Private Sub btnClose_Click(sender As Object, e As RoutedEventArgs) Handles btnClose.Click
         Me.Close()
+    End Sub
+
+    Private Sub MenuItem_Click(sender As Object, e As RoutedEventArgs)
+        Me.Close()
+    End Sub
+
+    Private Sub MenuItem_Click_1(sender As Object, e As RoutedEventArgs)
+
+    End Sub
+
+    Private Sub MenuItem_Click_2(sender As Object, e As RoutedEventArgs)
+
     End Sub
 End Class
