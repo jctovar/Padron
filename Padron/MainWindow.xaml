@@ -12,7 +12,7 @@
         </Grid.Background>
         <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="17" Margin="10,30,0,0" TextWrapping="Wrap" Text="Número de cuenta" VerticalAlignment="Top" Width="108" FontWeight="Bold"/>
         <TextBox x:Name="txtUsername" HorizontalAlignment="Left" Height="25" Margin="10,47,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="259" MaxLength="9" AcceptsTab="True"/>
-        <Button x:Name="button" Content="Buscar" HorizontalAlignment="Left" Height="25" Margin="274,47,0,0" VerticalAlignment="Top" Width="105"/>
+        <Button x:Name="button" IsDefault="True" Content="Buscar" HorizontalAlignment="Left" Height="25" Margin="274,47,0,0" VerticalAlignment="Top" Width="105"/>
         <Button x:Name="btnClose" Content="Cerrar" HorizontalAlignment="Left" Height="25" Margin="274,507,0,0" VerticalAlignment="Top" Width="105" RenderTransformOrigin="1.095,1.215"/>
         <Label x:Name="lblCompany" Content="Universidad Nacional Autónoma de México" Margin="10,510,151,30" FontSize="8" FontWeight="Bold" Foreground="#FF666666" RenderTransformOrigin="0.539,2.556"/>
         <TextBox x:Name="txtFirstname" HorizontalAlignment="Left" Height="24" Margin="145,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
