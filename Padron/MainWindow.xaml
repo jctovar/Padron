@@ -43,5 +43,10 @@
                 <MenuItem x:Name="mnuAbout" Header="Acerca de..." HorizontalAlignment="Left" Width="140" Click="MenuItem_Click_2"/>
             </MenuItem>
         </Menu>
+        <TextBox x:Name="txtAge" HorizontalAlignment="Left" Height="24" Margin="145,391,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <Label x:Name="lblOrigin_Copy" Content="Edad" Margin="10,391,264,152" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <TextBox x:Name="txtBirthday" HorizontalAlignment="Left" Height="24" Margin="145,420,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" IsReadOnly="True" Background="#33FFFFFF"/>
+        <Label x:Name="lblOrigin_Copy1" Content="Fecha de nacimiento" Margin="10,420,264,123" FontSize="9.333" Foreground="#FF333333" FontWeight="Bold"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="33" Margin="10,477,0,0" VerticalAlignment="Top" Width="87" Source="suayed_logo.png"/>
     </Grid>
 </Window>

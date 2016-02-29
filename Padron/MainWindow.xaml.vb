@@ -11,7 +11,6 @@ Class MainWindow
         ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
         Me.Title = My.Application.Info.Title
 
-
         Me.Login()
 
         txtUsername.Focus()
@@ -24,7 +23,7 @@ Class MainWindow
             MessageBox.Show("Ingresa un número de cuenta valido!", My.Application.Info.Title, MessageBoxButton.OK, MessageBoxImage.Error)
 
             txtUsername.Focus() 'Return Focus
-            txtUsername.Clear() 'Clear TextBox
+            txtUsername.SelectAll() 'Clear TextBox
         End If
     End Sub
     Private Sub GetStudent(username As String)
@@ -63,6 +62,8 @@ Class MainWindow
             txtPassword.Text = obj.student(0).password.ToString
             txtCurp.Text = obj.student(0).curp.ToString
             txtHeadquarters.Text = obj.student(0).headquarters.ToString
+            txtAge.Text = String.Format("{0} años", obj.student(0).age.ToString)
+            txtBirthday.Text = obj.student(0).birthday.ToString
 
             ' Clean up the streams and the response.
 
@@ -73,10 +74,10 @@ Class MainWindow
         Finally
             If Not response Is Nothing Then response.Close()
             txtUsername.Focus() 'Return Focus
+            txtUsername.SelectAll() 'Clear TextBox
             reader.Close()
             response.Close()
         End Try
-
 
     End Sub
     Public Class Container
@@ -94,6 +95,8 @@ Class MainWindow
         Public generation As String
         Public headquarters As String
         Public career_name As String
+        Public age As String
+        Public birthday As String
     End Class
     Private Function validateUsername(varUsername As String) As Boolean
         If Not Regex.Match(varUsername, "^[0-9]{9}$", RegexOptions.IgnoreCase).Success Then 'Only Letters
@@ -122,7 +125,7 @@ Class MainWindow
     End Sub
 
     Public Function BasicAuth(strUsername As String, strPass As String) As String
-        Dim authInfo As String = strUsername + ":" + strPass
+        Dim authInfo As String = String.Format("{0}:{1}", strUsername, strPass)
 
         authInfo = Convert.ToBase64String(System.Text.Encoding.UTF8.GetBytes(authInfo))
 
